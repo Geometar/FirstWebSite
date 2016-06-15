@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<title> Automaterijal Sabac </title>
+	<link rel="stylesheet" href="main.css">
+	<!--[if lt IE 9]>
+	<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+	<![endif]-->
+	<!--<script src="js/modernizr.js"></script>
+	<script src="js/respond.min.js"></script>-->
+	<html class="js html-loaded wf-active modern-browser responsive js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase 
+	indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns
+	cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg 
+	inlinesvg smil svgclippaths wf-roboto-n3-active wf-roboto-i3-active wf-roboto-n4-active wf-roboto-i4-active wf-roboto-n5-active wf-roboto-i5-active wf-roboto-n7-active 
+	wf-roboto-i7-active wf-roboto-n9-active wf-roboto-i9-active wf-roboto-i1-active wf-roboto-n1-active ui--win-loaded">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-71574867-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+<header id="top_header">
+	<div id="zaglavlje">
+		<img width=400 height=145 src="slike/automaterijal2.png" alt="Automaterijal" title="Automaterijal"></img>
+	</div>
+		
+</header>
+<div id="big_wrapper">
+		
+<script type="text/javascript">
+	var Image= new Array("slike/febika.png", "slike/btigar.png", "slike/vrc.png", "slike/hengst.png", "slike/mmr.png", "slike/shelll.png", "slike/msc.png");
+	var Image_Number= 0;
+	var Image_Length= Image.length -1;
+	setInterval("change_image(1)", 5000);
+	
+	function change_image(num){
+		Image_Number=Image_Number + num;
+		setInterval("change_image(num)", 3000)
+		
+		if (Image_Number > Image_Length){
+			Image_Number=0;
+			setInterval("change_image(num)", 3000)
+		}
+		if (Image_Number < 0) {
+		Image_Number =Image_Length;
+		setInterval("change_image(num)", 3000)
+		
+		}
+		document.slideshow.src= Image[Image_Number];
+		return false;
+		
+	}
+	</script>
+	
+	<nav id="top_menu">
+	<ul>
+		<li ><a href="TEST.html" onMouseOver="this.style.color ='darkgrey'" onMouseOut="this.style.color = 'white'">NASLOVNA</a></li>
+			<li ><a href="index.html" onMouseOver="this.style.color ='darkgrey'" onMouseOut="this.style.color = 'white'">O NAMA</a></li>
+			<li><a href="http://www.automaterijal.com/orders" target="_blank" target="_blank" onMouseOver="this.style.color ='darkgrey'" onMouseOut="this.style.color = 'white'">PREGLED ROBE / NARUČIVANJE </a></li>
+			<li><a href="kontakt.html" onMouseOver="this.style.color ='darkgrey'" onMouseOut="this.style.color = 'white'">KONTAKT</a></li>
+	</ul>
+	</nav>
+	<section id="pozadina">
+	<table div id ="slide_sov">
+	<div id="pokusaj">
+	<img  width=750 height=450 src="slike/febika.png" name="slideshow"/>
+	
+	</div>
+		<div id="strelica">
+		<tr>
+			<td class="pos_fixed" align="left" ><a href="javascript.html" onclick="return change_image(-1)"><img width=55px height=55px src="slike/levak.png"> </a></td>
+			<td class="pos_fixede" align="right"><a href="javascript:change_image(1))" onclick="return change_image(+1)"><img width=55px height=55px src="slike/desnjak.png"></a></td>
+			</tr>
+			</div>
+		</table>
+		
+	</section>
+<aside id="dugmad">
+<a href="febi.html" class="button button-dva">Febi</a>
+<a href="shell.html" class="button button-sest">Shell</a>
+<a href="vr.html" class="button button-tri">Victor Reinz</a>
+<a href="hengst.html" class="button button-cetri">Hengst</a>
+<a href="mm.html" class="button button-pet">Magneti Marelli</a>
+<a href="ms.html" class="button button-sedam">MotorService</a>
+<a href="pneumatici.html" class="button button-primary">Pneumatici</a>
+<a href="akumulatori.html" class="button button-sedam">Akumulatori</a>
+</aside>
+<section id="vesti">
+<h1 class="news">Automaterijal | Vesti</h1>
+<div id="slovo">
+<ul>
+<li><a href="shellkozmetika.html"><img width=310 height=150 src="slike/Akcija-Recovered.png" alt="Automaterijal" title="Automaterijal"></a></li>
+<li><a href="cenovnik.html"><img width=310 height=150 src="slike/gumez.png"></a></li>
+<li></li>
+
+</ul>
+</div>
+</section>
+<footer id="the_footer">
+		<ul>
+		<li> Automaterijal d.o.o. - Preduzeće za promet i trgovinu auto delova </li>
+		<li>  Radnim danom: 08-18  Subotom:  09-15</li>
+		</ul>
+	</footer>
+</div>
+
+
+
+
+
+</body>
+
+</html>

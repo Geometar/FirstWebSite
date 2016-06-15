@@ -1,0 +1,1166 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+button{
+	font: 20px "Trebuchet MS", sans-serif;
+	}
+}
+
+header, section, footer, aside, nav, article{
+	display: block;
+}
+a img{
+    border-width: 0;
+}
+html,body{
+    width:100%;
+}
+body{
+	text-align: center;
+background-image: url("slike/bg31.png");
+background-attachment:fixed;
+}
+
+p{
+padding : 12px;
+font: normal 19px Tahoma;
+}
+
+h2{
+padding: 25px;
+text-align:center;
+font: bold 23px Tahoma
+}
+
+h1{
+padding: 15px;
+text-align:left;
+font: bold 26px Tahoma;
+}
+h2{
+padding: 10px;
+margin:0 0 5px 5px;
+text-align:left;
+font: normal 23px Tahoma;
+color : #0C1440;
+}
+.speks{
+font: normal 13px Tahoma;
+padding:0px;
+margin:0px;
+}
+#slika{
+float:right;
+}
+#firme{
+float: left;
+margin: 0px 0px 0px 15px;
+}
+#firme li{
+margin:0 0 0 14px;
+padding: 4px;
+}
+
+#nove{
+float: left;
+margin: 0px 0px 0px 15px;
+}
+#nove li{
+margin:0 0 0 14px;
+padding: 3px;
+}
+#marke{
+float: left;
+
+}
+#marke li{
+margin: 0px 0px 0px 12px;
+}
+#marke li:hover{
+border-bottom:groove;
+}
+
+#nove li:hover{
+border-bottom:groove;
+}
+
+#firme li:hover{
+border-bottom:groove;
+}
+
+
+#big_wrapper{
+	
+	width:1000px;
+	margin: 3px auto;
+	text-align:left;
+}
+
+}
+#top_header{
+	padding: 5px;
+	margin: 0px;
+
+}
+
+#zaglavlje{
+padding: 0px 0px 0px 550px;
+
+}
+
+
+#top_menu{
+	background:#141B47;
+	color: white;
+	text-align:center;  
+	border-radius: 15px;
+}
+
+#top_menu li{
+	display: inline-block;
+	padding: 4px;
+}
+
+#top_menu li a{
+	display: block;
+	text-decoration: none;
+	font: bold 20px Tahoma;
+	color:white;
+	padding: 8px;
+}
+.slk{
+border-style:groove;
+width: 325px;
+}
+#main_section{
+	float: left;
+	width: 650px;
+	margin: 10px; /*670 px i ostalo je 320px levo  */ 
+	
+}
+#kura{
+	float:right;
+	width: 310px;
+	margin: 15px 20px 5px 0px;
+	
+}
+
+#side_news{
+	float:right;
+	width:310px;
+	margin: 4px 0px 10px 0px;
+	padding: 9px;
+	background: #E8F0F0;
+}
+
+#main_strana{
+	float:left;
+	width: 340px;
+	margin: 5px;
+	}
+#boji{
+width:640px;
+background-color:red;
+}
+
+#side_desno{
+	float:right;
+	width:625px;
+	margin: 5px;
+	padding:5px;
+	background: #E8F0F0;
+	
+}
+#side_desnos{
+	width:620px;
+	margin: 10px 0px;
+	padding:7px;
+	background: #E8F0F0;
+	
+}
+#side_desnoa{
+	width:620px;
+	margin: 10px 0px;
+	padding:7px;
+	background: #E8F0F0;
+	
+}
+
+	
+}
+#main_strana li{
+	text-decoration:none;
+	list-style:none;
+	padding: 3px;
+	font: normal 16px Tahoma;
+}
+#kontakti li{
+	text-decoration:none;
+	list-style:none;
+	padding: 3px;
+	font: normal 16px Tahoma;
+}
+#kontaktis li{
+	text-decoration:none;
+	list-style:none;
+	padding: 3px;
+	font: normal 16px Tahoma;
+}
+#kontaktis{
+border-bottom-style: groove;
+}
+#boji{
+
+}
+#side_news  li{
+list-style: none;
+padding: 3px;
+}
+article{
+	background: #E8F0F0;
+	float: left;
+	padding: 5px;
+}
+#tekst_gume{
+width:735px;
+}
+#tekstovis{
+width:750px;
+}
+#the_footer{
+clear: both;
+background-color: #141B47;
+text-align:center;
+color:white;
+}
+
+#the_footer li{
+	list-style:none;
+	font: normal 18px Tahoma;
+}
+#tekst{
+	color: black;
+	
+}
+
+#tekst p{
+	font: normal 19px Tahoma;
+	
+}
+}
+h4{
+font: normal 20px Tahoma;
+}
+
+#pozadina{
+display: block;
+float:left;
+width:770px;
+height:469px;
+position: relative;
+background: #E8F0F0;
+margin:5px;
+padding:0px;
+}
+#slikea{
+float:left;
+width:130px;
+padding:29px 0px 0px 0px;
+}
+#slikes{
+float:left;
+width:130px;
+padding:9px 0px 0px 0px;
+}
+#slikem{
+float:left;
+width:130px;
+padding:11px 0px 0px 0px;
+}
+#teksa{
+width:400px;
+float:left;
+padding:21px 0px 0px 0px;
+}
+#tabela{
+width:210px;
+float:right;
+}
+#tabelaj{
+width:600px;
+
+float:left;
+}
+#tabelajs{
+width:600px;
+
+float:right;
+}
+#tabelajd{
+width:600px;
+
+float:left;
+}
+#tabelam{
+padding:15px 0px 0px 0px;
+width:580px;
+float:left;
+}
+#tabelam ul{
+padding: 5px 0px 0px 0px;
+list-style:none;
+font: normal 15px Tahoma;
+}
+#tabelaj ul{
+padding: 5px 0px 0px 0px;
+list-style:none;
+font: normal 15px Tahoma;
+}
+#tabelajs li{
+padding: 5px 0px 0px 0px;
+list-style:none;
+font: normal 14px Tahoma;
+}
+#tabelajs ul{
+margin:15px;
+}
+#tabelajd ul{
+padding: 0px;
+list-style:none;
+font: normal 15px Tahoma;
+}
+#tabela ul{
+padding: 5px 0px 0px 0px;
+list-style:none;
+font: bold 14px Tahoma;
+}
+#tekstovi{
+margin:8px 0px 0px 0px;
+}
+
+#tekstovis{
+margin:0px 0px 0px 0px;
+}
+
+
+
+.nads{
+font: bold 22px Tahoma;
+color: #212437;
+padding:10px 0px 0px 0px;
+margin:5px;
+
+}
+.nadsn{
+font: bold 21px Tahoma;
+color: #8B2323;
+padding:10px 0px 0px 0px;
+margin:5px;
+text-align:center;
+
+}
+.nadss {
+text-align:center;
+font: bold 15px Tahoma;
+height:25px;
+color: #212437;
+padding:10px 0px 0px 0px;
+margin:5px;
+
+}
+.nadssp{
+text-align:center;
+font: bold 14px Tahoma;
+height:37px;
+color: #212437;
+padding:5px 0px 0px 0px;
+margin:5px;
+
+}
+
+
+.nadsh{
+color:white;
+font: bold 19px Tahoma;
+padding:10px 0px 0px 0px;
+margin:5px;
+
+}
+#pureplus{
+width:770px;
+height: 240px;
+margin:0px;
+}
+#centriraj{
+text-align:center;
+}
+.imgBox { 
+width: 650; 
+height: 300;  } 
+.imgBox:hover { -moz-box-shadow: 0 0 20px #ccc; -webkit-box-shadow: 0 0 20px #ccc; box-shadow: 0 0 20px #ccc; }
+
+.imgBoxi { 
+width: 310; 
+height: 150;  } 
+.imgBoxi:hover { -moz-box-shadow: 0 0 20px #ccc; -webkit-box-shadow: 0 0 20px #ccc; box-shadow: 0 0 20px #ccc; }
+
+.detaljno{
+font: bold 16px Tahoma;
+color: #212437;
+padding:0px 0px 0px 0px;
+margin:0px;
+text-align:center;
+}
+.nadsa{
+font: bold 31px Tahoma;
+color: #212437;
+padding:10px 0px 0px 0px;
+margin:5px;
+text-align:center;
+}
+#znak{
+width:770px;
+height:60px;
+background-image:url("slike/znak.png");
+}
+#znaka{
+width:770px;
+height:40px;
+background-image:url("slike/al1.png");
+}
+#znaka1{
+width:770px;
+height:40px;
+background-image:url("slike/al2.png");
+}
+
+#znakp{
+width:770px;
+height:60px;
+background-image:url("slike/shelp.png");
+}
+#znakh{
+width:770px;
+height:40px;
+background-image:url("slike/hx7.png");
+}
+#znakh2{
+width:770px;
+height:40px;
+background-image:url("slike/hx7.png");
+}
+#znakh3{
+width:750px;
+height:40px;
+background-image:url("slike/ultra.png");
+}
+#znakh4{
+width:750px;
+height:40px;
+background-image:url("slike/hx5.png");
+}
+
+#znakh5{
+width:750px;
+height:40px;
+background-image:url("slike/hx3.png");
+}
+.centar{
+font: normal 17px Tahoma;
+}
+.akuma{
+margin:2px;
+width: 730px;
+font: normal 17px Tahoma;
+
+}
+#pokusaj{
+padding:10px;
+margin:0px 1px;
+position: relative;
+float:left;
+border-radius: 5px;
+}
+#strelica{
+display:none;
+}
+td.pos_fixed{
+position:absolute;
+top:210px;
+left: 0px;
+border:none;
+}
+
+
+td.pos_fixede{
+float:right;
+position:absolute;
+top:210px;
+right: 0px;
+border:none;
+}
+
+#dugmad{
+margin:5px 8px;
+height:469px;
+width: 200px;
+float:right;
+background: white;
+}
+
+#dugmad a{
+font:normal 19px Tahoma;
+}
+.button{
+	padding: 8px 10px;
+	text-decoration:none;
+	border-radius:5px;
+	background-color:#ccc;
+	display:block;
+	width:160px;
+	
+}
+.button-primary{
+background:grey;
+color:#fff;
+padding:12px;
+margin: 2px 0px 0px 3px;
+height:32px;
+width:170px;
+text-align:center;
+}
+.button-primary:hover{
+background:black;
+
+}
+.button-dva:hover{
+background:red;
+
+}
+
+.button-dva{
+background:grey;
+color:#fff;
+padding:12px;
+margin: 2px 0px 0px 3px;
+height:32px;
+width:170px;
+text-align:center;
+}
+
+.button-tri{
+background:grey;
+color:#fff;
+padding:12px;
+margin: 2px 0px 0px 3px;
+height:32px;
+width:170px;
+text-align:center;
+}
+.button-tri:hover{
+background:blue;
+
+}
+
+.button-cetri{
+background:grey;
+color:#fff;
+padding:12px;
+margin: 2px 0px 0px 3px;
+height:32px;
+width:170px;
+text-align:center;
+}
+
+.button-cetri:hover{
+background:#DFE526;
+}
+
+.button-pet{
+background:grey;
+color:#fff;
+padding:12px;
+margin: 2px 0px 0px 3px;
+height:32px;
+width:170px;
+text-align:center;
+}
+.button-pet:hover{
+background:#FCC732;
+}
+
+.button-sest{
+background:grey;
+color:#fff;
+padding:12px;
+margin: 2px 0px 0px 3px;
+height:32px;
+width:170px;
+text-align:center;
+}
+.button-sest:hover{
+background:red;
+}
+
+.button-sedam{
+background:grey;
+color:#fff;
+padding:12px;
+margin: 2px 0px 0px 3px;
+height:32px;
+width:170px;
+text-align:center;
+}
+.button-sedam:hover{
+background:blue;
+}
+
+.naslov{
+color:white;
+background:#2C2846;
+}
+
+.naslovi{
+color:white;
+background:#2C2846;
+}
+
+.naslovi:hover{
+color:red;
+}
+
+#ofebi{
+    float:left;
+	margin:10px 95px;
+	padding:10px;
+	background: #E8F0F0;
+	width:780px;
+}
+
+#ofebis{
+    float:left;
+	margin:10px 95px;
+	padding:10px;
+	background: #E8F0F0;
+	width:780px;
+}
+
+#gumice{
+float:right;
+	margin:10px 15px;
+	padding:10px;
+	background: #E8F0F0;
+	width:770px;
+}
+#gumices{
+	text-align:middle;
+	margin:10px 5px;
+	padding:10px 70px 0px 0px;
+	background: #E8F0F0;
+	width:710px;
+}
+#desno{
+float:left;
+position:fixed;
+margin:10px 0px;
+width:190px;
+background: white;
+
+}
+#desnos{
+float:left;
+position:fixed;
+margin:10px 0px;
+width:190px;
+background: white;
+
+}
+
+
+#desnoa{
+float:left;
+position:fixed;
+margin:10px 0px;
+width:190px;
+background: white;
+
+}
+
+
+.proba{
+text-align:left;
+font: normal 15px Tahoma;
+padding:12px 0px 0px 0px;
+margin:0px 0px 20px 0px;
+}
+.probad{
+border-style: groove;
+text-align:left;
+font: normal 15px Tahoma;
+padding:5px 0px 0px 0px;
+margin:0px 0px 20px 0px;
+}
+.probam{
+text-align:left;
+font: bold 15px Tahoma;
+padding:4px;
+margin:0px 0px 20px 0px;
+}
+
+#desno a{
+    width:166px;
+	font: bold 22px Tahoma;
+	color:black;
+	text-decoration: none;
+	background:grey;
+	text-align:center;
+}
+#desnos a{
+    width:166px;
+	font: bold 14px Tahoma;
+	color:black;
+	text-decoration: none;
+	background:grey;
+	text-align:center;
+}
+
+#desnoa a{
+    width:166px;
+	height:30px;
+	font: bold 18px Tahoma;
+	color:black;
+	text-decoration: none;
+	background:grey;
+	text-align:center;
+}
+
+
+#desno a:hover{
+background:darkgrey;
+}
+#desnos a:hover{
+background:darkgrey;
+}
+
+#desnoa a:hover{
+background:darkgrey;
+}
+
+#desno li{
+padding:2px;
+margin:2px 0px;
+text-decoration: none;
+list-style:none;
+}
+#desnos li{
+padding:2px;
+margin:2px 0px;
+text-decoration: none;
+list-style:none;
+}
+
+#desnoa li{
+padding:2px;
+margin:2px 0px;
+text-decoration: none;
+list-style:none;
+}
+
+
+
+#vesti{
+width:990px;
+height:230px;
+background: #E8F0F0;
+margin:5px 3px;
+float:left;
+}
+#face{
+font: bold 23px tahoma;
+float:right;
+padding: 0px 10px 0px 0px;
+}
+#face u{
+padding:0px;
+margin:0px;
+}
+#mesta{
+width:500px;
+float:left;
+}
+#social{
+padding:0px;
+margin: 0px;
+width:990px;
+height:60px;
+background: #E8F0F0;
+}
+#social a{
+list-style:none;
+text-decoration:none;
+color:black;
+}
+ #map {
+        width: 600px;
+        height: 450px;
+		padding:0px 20px 0px 0px;
+      }
+#karte{
+width:625px;
+text-align:center;
+}
+#karte a{
+width:100px;
+font: bold 17px Tahoma;
+list-style:none;
+text-decoration:none;
+color:black;
+}
+.button-devet{
+color:#fff;
+padding:2px;
+margin: 2px 0px 0px 3px;
+height:24px;
+width:100px;
+font: bold 17px Tahoma;
+text-align:center;
+color:black
+}
+.button-osam{
+background:grey;
+color:black;
+padding:2px;
+margin: 2px 0px 0px 3px;
+height:24px;
+width:100px;
+text-align:center;
+}
+.button-osam:hover{
+background:darkgrey;
+}
+.druga{
+height:24px;
+width:100px;
+background:darkgrey;
+}
+#karte ul{
+padding:0px 0px 7px 0px;
+display: inline-block;
+}
+#karte li{ 
+padding: 5px;
+list-style:none;
+display: inline-block;
+}
+.fejs{
+width:35px;
+height:35px;
+float:left;
+}
+
+.google{
+width:35px;
+height:35px;
+float:right;
+}
+#social li{
+padding:3px;
+text-align:center;
+display: inline-block;
+list-style:none;
+}
+.news{
+color:black;
+font: bold 20px Tahoma;
+margin: 0px;
+}
+#slovo{
+width:985px;
+height:151px;
+margin:5px 2px;
+text-align:center;
+}
+#slovo ul{
+margin:0px;
+padding:0px;
+width:980px;
+}
+#slovo li{
+padding:2px;
+text-align:center;
+display: inline-block;
+list-style:none;
+width:290px;
+height:150px;
+
+}
+.smanji{
+font: BOLD 22px Tahoma;
+}
+#slovo li:hover{
+border-bottom:groove;
+}
+
+#sto{
+width:770px;
+border: 1px solid black;
+margin:10px 0px 0px 0px;
+border-collapse: collapse;
+}
+
+#table th, td{
+	width:110px;
+	padding:4px;
+	font: bold 14px Tahoma;
+    text-align: center;
+	border: 1px solid black;
+}
+
+.red{
+background:DARKgrey;
+}
+#pozadis{
+color:red;
+width:600px;
+height:200px;
+}
+#tigar li{
+text-align:center;
+display: inline-block;
+list-style:none;
+width:170px;
+margin:10px 0px 5px 8px;
+background:darkgrey;
+text-decoration: none;
+padding:5px;
+height:22px;
+color:black;
+font: bold 15px Tahoma;
+}
+#shelld li{
+text-align:center;
+display: inline-block;
+list-style:none;
+width:170px;
+margin:10px 0px 5px 8px;
+background:darkgrey;
+text-decoration: none;
+padding:5px;
+height:22px;
+color:black;
+font: bold 18px Tahoma;
+}
+
+
+.tgr{
+color:red;
+}
+#tigar li:hover{
+background:grey;
+}
+#shelld li:hover{
+background:grey;
+}
+#tigar li a{
+list-style:none;
+text-decoration: none;
+color:black;
+}
+#shelld li a{
+list-style:none;
+text-decoration: none;
+color:black;
+}
+#bezi{
+text-align:center;
+}
+#tigara li{
+text-align:center;
+display: inline-block;
+list-style:none;
+width:170px;
+margin:10px 0px 5px 8px;
+background:darkgrey;
+text-decoration: none;
+padding:5px;
+height:22px;
+color:black;
+font: bold 14px Tahoma;
+}
+#shelld li{
+text-align:center;
+display: inline-block;
+list-style:none;
+width:170px;
+margin:10px 0px 5px 8px;
+background:darkgrey;
+text-decoration: none;
+padding:5px;
+height:22px;
+color:black;
+font: bold 16px Tahoma;
+}
+.tgra{
+color:red;
+}
+#tigara li:hover{
+background:grey;
+}
+#tigara li a{
+text-decoration: none;
+color:black;
+}
+
+#shelld li:hover{
+background:grey;
+}
+#shelld li a{
+text-decoration: none;
+color:black;
+}
+
+#sara{
+padding: 1x;
+margin: 0px;
+width:760px;
+height:90px;
+background-image:url("slike/blizp.png");
+}
+#acsaram{
+padding: 1x;
+margin: 0px;
+width:760px;
+height:90px;
+background-image:url("slike/jpak.png");
+}
+#amsaram{
+padding: 1x;
+margin: 0px;
+width:760px;
+height:90px;
+background-image:url("slike/mustang.png");
+}
+#aksara{
+padding: 1x;
+margin: 0px;
+width:760px;
+height:90px;
+background-image:url("slike/akus.png");
+}
+#aksaram{
+padding: 1x;
+margin: 0px;
+width:760px;
+height:90px;
+background-image:url("slike/sad.png");
+}
+#dsara{
+padding: 1x;
+margin: 0px;
+width:760px;
+height:90px;
+background-image:url("slike/dw51.png");
+}
+#ksara{
+padding: 1x;
+margin: 0px;
+width:760px;
+height:90px;
+background-image:url("slike/winter.png");
+}
+#wsara{
+padding: 1x;
+margin: 0px;
+width:760px;
+height:90px;
+background-image:url("slike/wsara.png");
+}
+.manje{
+font: bold 24px Tahoma;
+}
+#bridz{
+float:right;
+padding:0px 35px 5px 0px;
+}
+.pomeri{
+padding: 35px 0px 5px 15px;
+font: bold 24px Tahoma;
+float:left;
+}
+.pomeria{
+padding: 21px 0px 5px 15px;
+font: bold 32px tahoma;
+float:left;
+}
+.sarak{
+width:
+float:right;
+padding:0px 30px 10px 0px;
+}
+#antf{
+float:right;
+padding: 5px 0px 0px 0px;
+width: 450px;
+margin: 0px;
+}
+#antifriz{
+background-color:#E6E0FF;
+margin:5px;
+width: 750px;
+height:280px;
+}
+.cena{
+Color:darkred;
+font: bold 19px Tahoma;
+}
+#prvenac{
+margin: 5px;
+width:770px;
+height:70px;
+background-image: url("slike/sneg.png");
+}
+.h1s{
+Color: #CB0000;
+font: bold 31px Tahoma;
+text-align: center;
+}
+#klik{
+font: normal 12px Tahoma;
+float:left;
+width:500px;
+margin: 20px 0px 5px 5px;
+}
+.crte{
+padding: 2px;
+font: normal 13px Tahoma;
+}
+#klik li{
+text-align:center;
+display: inline-block;
+list-style:none;
+width: 160px;
+padding:10px;
+background:darkgrey;
+height:13px;
+}
+
+#klik a{
+text-decoration: none;
+color:black;
+font: normal 14px Tahoma;
+}
+
+
+#klik li:hover{
+background:grey;
+}
+
+#sto tr:nth-child(odd){ 
+		background: DARKgrey;
+	}
+	/*  Define the background color for all the EVEN background rows  */
+	#sto tr:nth-child(even){
+		background: #dae5f4;
+	}
